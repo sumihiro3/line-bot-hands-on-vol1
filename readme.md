@@ -24,7 +24,9 @@ $ ngrok http 3000
 
 ## LINE Bot の設定
 
-see at https://********
+### 下記資料を参照
+
+https://******** 
 
 ## プログラムの起動
 
