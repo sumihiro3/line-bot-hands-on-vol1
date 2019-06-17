@@ -54,13 +54,13 @@ module.exports.answerQuestionFor = function (user_id, question_id, answer) {
     console.log('answer : ' + answer);
     const user_data = this.getUserDataFor(user_id);
     const current_q = this.getCurrentQuestionFor(user_id);
-    if (current_q.id !== question_id) {
+    if (current_q == null || current_q.id !== question_id) {
         // 問題と回答が一致しなければnull を返す
         return null;
     }
     answer = parseInt(answer);
     // 正解かどうかの判定
-    is_answer_correct = false;
+    let is_answer_correct = false;
     if (current_q.correct === answer) {
         is_answer_correct = true;
     }
