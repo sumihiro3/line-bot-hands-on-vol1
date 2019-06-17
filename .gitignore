@@ -2,3 +2,4 @@ package-lock.json
 /node_modules
 downloaded/*
 !downloaded/preview.png
+data/quiz_questions.csv
