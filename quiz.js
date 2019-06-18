@@ -104,7 +104,7 @@ module.exports.getQuizeResultFor = function (user_id) {
     if (score >= 10) {
         result_message = 'ワンダフル！！！！満点でした。あなたは天才ですか？？';
     } else if (score > 5) {
-        result_message = '素晴らしい！' + score + '点でした。あなたはものしりですね！';
+        result_message = '素晴らしい！' + score + '点でした。とても物知りですね！';
     }
     return {
         'score': score,
