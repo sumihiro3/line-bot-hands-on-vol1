@@ -2,10 +2,23 @@
 
 ## ディレクトリ作成＆ソースコード クローン
 
+クローン先のディレクトリは任意です
+
+### Max/Linux
+
 ```bash
 $ mkdir ~/ldgk-hands-on && cd ~/ldgk-hands-on
 $ git clone https://github.com/sumihiro3/line-bot-hands-on-vol1.git
 $ cd line-bot-hands-on-vol1
+```
+
+### Windows
+
+```bat
+> mkdir c:¥tmp¥ldgk-hands-on
+> cd ldgk-hands-on
+> git clone https://github.com/sumihiro3/line-bot-hands-on-vol1.git
+> cd line-bot-hands-on-vol1
 ```
 
 ## プログラムに必要なモジュールをインストール
