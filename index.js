@@ -161,9 +161,6 @@ function handleImage(message, replyToken) {
         const previewPath = path.join(__dirname, 'downloaded', `${message.id}-preview.jpg`);
         getContent = downloadContent(message.id, downloadPath)
             .then((downloadPath) => {
-                // ImageMagick is needed here to run 'convert'
-                // Please consider about security and performance by yourself
-                // cp.execSync(`convert -resize 240x jpeg:${downloadPath} jpeg:${previewPath}`);
                 return {
                     originalContentUrl: baseURL + '/downloaded/' + path.basename(downloadPath),
                     previewImageUrl: baseURL + '/downloaded/' + path.basename(downloadPath),
@@ -191,12 +188,8 @@ function handleVideo(message, replyToken) {
     let getContent;
     if (message.contentProvider.type === "line") {
         const downloadPath = path.join(__dirname, 'downloaded', `${message.id}.mp4`);
-        // const previewPath = path.join(__dirname, 'downloaded', `${message.id}-preview.jpg`);
         getContent = downloadContent(message.id, downloadPath)
             .then((downloadPath) => {
-                // FFmpeg and ImageMagick is needed here to run 'convert'
-                // Please consider about security and performance by yourself
-                // cp.execSync(`convert mp4:${downloadPath}[0] jpeg:${previewPath}`);
                 return {
                     originalContentUrl: baseURL + '/downloaded/' + path.basename(downloadPath),
                     previewImageUrl: baseURL + '/downloaded/preview.png'
