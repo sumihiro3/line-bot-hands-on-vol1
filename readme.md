@@ -16,7 +16,7 @@ $ cd line-bot-hands-on-vol1
 
 ```bat
 > mkdir c:¥tmp¥ldgk-hands-on
-> cd ldgk-hands-on
+> cd c:¥tmp¥ldgk-hands-on
 > git clone https://github.com/sumihiro3/line-bot-hands-on-vol1.git
 > cd line-bot-hands-on-vol1
 ```
@@ -39,7 +39,7 @@ $ ngrok http 3000
 
 ### 下記資料を参照
 
-https://******** 
+http://bit.ly/ldgk-bot-hands-on-vol1
 
 ### 環境変数を設定
 
@@ -63,7 +63,7 @@ $ node index.js
 
 ### 下記資料を参照
 
-https://******** 
+http://bit.ly/ldgk-bot-hands-on-vol1
 
 ## プログラムの起動
 
@@ -92,3 +92,29 @@ $ node app.js
 } else {
 // 後略
 ```
+
+# 関連リンク
+
+## ハンズオン関係
+
+* [サンプルプログラム](https://github.com/sumihiro3/line-bot-hands-on-vol1)
+* [資料置き場](http://bit.ly/ldgk-bot-hands-on-vol1)
+
+## LINE 関係
+
+### LINE 開発者向けサイト (LINE Developers)
+
+* [LINE Developers Top page](https://developers.line.biz/ja/)
+* [Messaging API Top](https://developers.line.biz/ja/services/messaging-api/)
+* [Messaging API Document](https://developers.line.biz/ja/docs/messaging-api/)
+* [FlexMessage Simulator](https://developers.line.biz/console/fx/)
+* [Messaging API SDK](https://developers.line.biz/ja/docs/messaging-api/line-bot-sdk/)
+
+### LINE 公式アカウント
+
+* [LINE 公式アカウントマネージャー](https://manager.line.biz/)
+
+## LINE Developer Group Kansai
+
+* [Facebook page](https://www.facebook.com/groups/LINEDeveloperGroupKansai/)
+* [Connpass page](https://ldgk.connpass.com/)
