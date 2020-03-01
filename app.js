@@ -25,7 +25,7 @@ const port = 3000;
 app.use('/static', express.static('static'));
 
 // constants
-const QUIZ_START_MESSAGE = '▶クイズ開始';
+const QUIZ_START_MESSAGE = 'クイズ開始';
 const POSTBACK_TYPE_ANSWER_QUESTION = 'QuestionAnswer';
 const POSTBACK_TYPE_NEXT_QUESTION = 'NextQuestion';
 const POSTBACK_TYPE_SHOW_QUIZ_RESULT = 'ShowQuizResult';
